@@ -1,0 +1,100 @@
+body{
+    padding: 20px;
+}
+
+.dropdown-menu{
+    background-color: #058aa0;
+}
+
+.bg-dark{
+    background-color: #523c7b !important;
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-inner > .item > img{
+    position: absolute;
+    height: auto;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+img {
+    max-width:100%;
+    max-height:600px;
+    height: auto;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team h2{
+    color: rgba(50,50,50,0.8);
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+.mickey{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.content{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    padding: 0 30px;
+}
+
+#login{
+    min-width: 250px;
+    background-color: #058aa0;
+    padding: 14px 14px 0;
+    color: white;
+}
+
+.color-font{
+    color: white;
+}
+
+.carousel-caption h1{
+    color: #523c7b;
+}

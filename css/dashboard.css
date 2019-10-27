@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-sidebar{
+    margin: 80px 20px 20px 20px;
+}
+
+.nav-sidebar >li{
+    padding: 10px 20px;
+
+}
+
+.main{
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.placeholders{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.placeholder{
+    margin-bottom: 20px;
+}
+
+.placeholder img{
+    display: inline;
+    border-radius: 5%;
+}
+
+.Subheader{
+    text-align: center;
+}

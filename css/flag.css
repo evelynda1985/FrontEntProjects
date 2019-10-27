@@ -1,0 +1,34 @@
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+#colombiaFlag {
+    list-style: none;
+    width: 100%;
+
+}
+
+#yellow #blue #red {
+    /*height: 100%;*/
+}
+
+#blue{
+    background-color: #023790;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+#yellow{
+    background-color: #f7cb15;
+    height: 33.33%;
+}
+
+#red{
+    background-color: #c21423;
+    height: 33.33%;
+}

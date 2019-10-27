@@ -1,0 +1,137 @@
+html body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+.container{
+    padding-top: 33px;
+    align-content: center;
+    display: unset;
+}
+
+
+.randomPassword{
+    margin-top: 24px;
+    border: black;
+    width: 100%;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(117,189,209,1) 0%, rgba(117,189,209,1) 65%, rgba(147,206,222,1) 74%, rgba(73,165,191,1) 100%);
+}
+
+.passwordGenerated{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    color: black;
+    text-align: center
+}
+
+.randomPasswordBtn{
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+.pass{
+    margin-left: 0;
+    padding: 7px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    float: right;
+
+}
+
+.inLength{
+    margin: 0;
+    padding: 5px;
+    background-color: #ebebe4;
+    color: orangered;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.randomPasswordTitle{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#clock{
+    color: white;
+    position: relative;
+    top: 75%;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10%;
+}
+
+.changeBackground{
+    margin-top: 24px;
+    border: black;
+    width: 100%;
+}
+
+.customContainer{
+    border: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.col-sm-12{
+    padding: 0%;
+    margin: 0%;
+}
+
+.justify-content-around{
+    padding: 0%;
+    margin: 0%;
+}
+
+.row{
+    margin: 0%;
+}
+
+.col-sm-6{
+    padding: 0%;
+    margin: 0%;
+}
+
+#the-basics{
+    font-size: 1em;
+}
+
+#the-basics input{
+    margin-left: 1em;
+}
+
+.tt-menu {
+    left: 1em !important;
+}
+
+.jumbotron {
+    padding: 10rem !important;
+    margin-bottom: 0rem !important;
+}
+
+
+#typeaheadTitle h1{
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    color: #11a1ad;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.typeaheadInput{
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    color: #11a1ad;
+    align-items: center;
+}
+
+

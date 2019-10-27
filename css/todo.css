@@ -1,0 +1,29 @@
+.todo h1{
+    margin-top: 10%;
+}
+
+#userinput{
+    width: 200px;
+    height: 8%;
+    display: inline-block;
+}
+
+.todobtn{
+    margin: 10px 5px;
+    height: 20px;
+    padding: 2px 5px !important;
+}
+
+.form-control{
+    margin: 0 auto;
+}
+
+.todo ul{
+    list-style-type: none;
+}
+
+.alignItems{
+    text-align: left;
+    margin: 0;
+}
+

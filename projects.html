@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/projects.css">
+    <title>Index Demo</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/twentytwenty.css">
+    <link rel="stylesheet" href="css/customtwenty.css">
+    <link rel="stylesheet" href="css/flag.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+<!--nav bar stars here!-->
+<div >
+    <div class="container">
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">FrontEnd Projects</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Demo menu</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar">
+                        <li class="nav-item">
+                            <a class="nav-link" > Hello Visitor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!--Navbar ends here-->
+
+<!--Projects star here-->
+<div class="container">
+    <div class="row justify-content-md-center">
+        <!--Random password stars here-->
+        <div class="col randomPassword col-sm-6">
+            <form action="" name="passGen" >
+                <div class="row justify-content-md-center">
+                    <div class="col col-sm-12">
+                        <h2 class="randomPasswordTitle">Generate a Random Password</h2><br>
+                    </div>
+                        <div class="col col-sm-1"></div>
+                        <div class="col col-sm-10">
+                            <input type="text" size="18" name="output" class="passwordGenerated" disabled>
+                        </div>
+                        <div class="col col-sm-1"></div>
+                        <div class="col col-sm-4"></div>
+                        <div class="col col-sm-4"></div>
+                        <div class="col col-sm-5">
+                            <p class="pass">Password Length:</p>
+                        </div>
+                        <div class="col col-sm-5">
+                            <input type="text" name="length" size="3" value="6" class="inLength">
+                        </div>
+                    <div class="col col-sm-3">
+                        <input type="button" value="Generate Password" class="btn btn-success randomPasswordBtn" onclick="populateForm(this.form.length.value)"><br>
+                    </div>
+                    <div class="col col-sm-12"> &nbsp</div>
+                    <div class="col col-sm-12"> &nbsp</div>
+                    <div class="col col-sm-12"> &nbsp</div>
+                    <div class="col col-sm-12"> &nbsp</div>
+                    <div class="col col-sm-12"> &nbsp</div>
+                </div>
+            </form>
+        </div>
+        <!--Random background colors starts here-->
+        <div class="col col-sm-6 changeBackground" id="clock">
+        </div>
+
+        <!-- TypeAhead from https://twitter.github.io/typeahead.js/       -->
+        <div class=" col col-sm-6">
+            <div class="jumbotron">
+                <div id="typeaheadTitle"><h1>TypeAhead</h1></div>
+                <div id="the-basics" class="typeaheadInput">
+                    <input class="typeahead" type="text" placeholder="States of USA">
+                </div>
+            </div>
+        </div>
+        <!--flag colors starts here-->
+        <div class="col col-sm-6 ">
+            <div id="yellow"></div>
+            <div id="blue"><h4>Colombia, the only risk is wanting to stay</h4></div>
+            <div id="red"></div>
+        </div>
+
+        <!--To-do starts here-->
+        <div class="todo col col-sm-6 text-center">
+            <h1>Todo List</h1>
+            <input type="text" id="userinput" class="form-control" placeholder="What you need to do!">
+            <button class="btn btn-success" id="add">Add a TODO</button>
+            <button class="btn btn-danger" id="removeall">REMOVE ALL TODO</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="alignItems col-sm-4">
+                        <br>
+                        <ul id="list"></ul>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Twenty Twenty project stars here https://zurb.com/playground/twentytwenty        -->
+        <div class=" col col-sm-6 customContainer">
+            <div class="justify-content-around col  ">
+                <div>
+                    <div class="col-sm-0"> </div>
+                    <div class="col-sm-12 twentytwenty-container text-center height">
+                        <h1>20|20 Project</h1>
+                        <img src="./images/deforestation.jpg" class="before">
+                        <img src="./images/planting.jpg" >
+                    </div>
+                    <div class="col-sm-0"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9f24bb05d2.js"></script>
+<script src="./js/random_password.js" ></script>
+<script src="./js/jquery.twentytwenty.js" ></script>
+<script src="./js/custom-twenty.js" ></script>
+<script src="./js/jquery.event.move.js" ></script>
+<script src="./js/clocky.js" ></script>
+<script src="./js/particles.js" ></script>
+<script src="./js/app.js" ></script>
+<script src="./js/red.js" ></script>
+<script src="./js/type_ahead.js" ></script>
+<script src="./js/custom.js" ></script>
+<script src="./js/todo.js" ></script>
+</body>
+</html>
